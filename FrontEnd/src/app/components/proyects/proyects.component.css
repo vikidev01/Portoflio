@@ -1,0 +1,20 @@
+.row{
+    background-color: #a1b5cb;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: auto;
+    padding-left: 20px;
+
+}
+.descripcionjuego, .imagenjuego{
+    display: inline-block;
+    text-align: justify;
+}
+.cienArgentinos{
+    box-shadow: 10px 10px 5px rgb(20, 70, 20);
+}
+h1{
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.general{
+    background-color: #a1b5cb;
+    text-align: center;
+}
+.row{
+    
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+h1{
+    padding-left: 20px;
+    font-weight: bold;
+}

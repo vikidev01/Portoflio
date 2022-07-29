@@ -1,0 +1,63 @@
+#LogoAp{
+    width: 150px;
+}
+img{
+    width: 50px;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    margin-right: 0.5rem;
+    display: flex;
+
+}
+.redes{
+    display: flex;
+}
+
+.btn{
+    border-width: 2px;
+    box-shadow: 2px 2px 5px grey;
+    margin-bottom: 20px;
+}
+a{
+   margin-right: 8px; 
+}
+
+@media(max-width: 404px){
+    .container{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        box-shadow: 1px 1px 5px grey;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .redes{
+        margin-top: 20px;
+        display: flex;
+    }
+    .login{
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    .btn{
+        width: 90%;
+        border-radius: 2px;
+    }
+}

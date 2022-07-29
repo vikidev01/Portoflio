@@ -1,0 +1,17 @@
+.row{
+    padding: 20px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+ul{
+    list-style:  none;
+}
+div{
+    background-color: #a1b5cb;
+}
+h2, h3{
+    display: inline;
+}
+h1{
+    font-weight: bold;
+}

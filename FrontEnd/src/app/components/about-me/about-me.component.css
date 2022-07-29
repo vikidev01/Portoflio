@@ -1,0 +1,88 @@
+
+div{
+    background-color: #a1b5cb;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-weight: bold;
+}
+/*Dispositivos extra-pequeños*/
+@media(max-width: 405px){
+    #foto{
+        top: 93%!important;   
+    }
+}
+@media(max-width: 575px){
+    #foto{
+        position: absolute;
+        width: 40%;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 100%;
+        left: 30%;
+        top: 70%;   
+        margin-top: 30px; 
+    }
+    .presentacion{
+        font-size: 34px;
+        padding: 0px;
+        margin-top: 80px;
+    }
+}
+/*Dispositivos pequeños*/
+@media(min-width: 576px) and (max-width:768px){
+    #foto{
+        position: absolute;
+        width: 35%;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 100%;
+        left: 3%;
+        top: 85%;    
+    }
+    .presentacion{
+        margin-top: 50px;
+        text-align: left;
+        font-size: 30px;
+        padding: 0px;
+    }
+    .acerca{
+        margin-top: 50px;
+    }
+}
+/*Dispositivos medianos*/
+@media(min-width: 769px )and (max-width:992px){
+    #foto{
+        position: absolute;
+        width: 25%;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 100%;
+        left: 3%;
+        top: 85%;     
+    }
+    .presentacion{
+        font-size: 25px;
+    }
+}
+/*Dispositivos grandes*/
+@media(min-width: 992px){
+    #foto{
+        position: absolute;
+        width: 20%;
+        box-shadow: 5px 5px 5px grey;
+        border-radius: 100%;
+        left: 3%;
+        top: 85%;     
+    }
+    .presentacion{
+        margin-top: 40px;
+        font-size: 30px;
+        text-align: left;
+    }
+    .acerca{
+        margin-top: 40px;
+    }
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 0%;
+}
