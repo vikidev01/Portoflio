@@ -1,0 +1,37 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+section{
+    background-color: #a1b5cb;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+.btn{
+    border-width: 1px;
+    border-color: #8998ac;
+    box-shadow: 2px 2px 5px grey;
+    margin-bottom: 20px;
+}
+button, a, i, .form-check{
+    width: 100%;
+    font-weight: bold;
+}
+
+img{
+   opacity: 40%;
+}
+label, #form1Example3{
+    color: #5d6979;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.ing{
+    background-color: #6d84a3;
+}
+.reg{
+    background-color: #bd89af;
+}
